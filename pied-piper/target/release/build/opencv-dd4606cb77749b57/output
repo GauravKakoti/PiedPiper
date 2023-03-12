@@ -1,0 +1,330 @@
+=== Running: "\\\\?\\C:\\Users\\HP\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin\\cargo.exe" "build" "--release" "--package" "opencv-binding-generator" "--bin" "binding-generator"
+cargo:rustc-cfg=ocvrs_opencv_branch_4
+cargo:rerun-if-env-changed=OPENCV_PACKAGE_NAME
+cargo:rerun-if-env-changed=OPENCV_PKGCONFIG_NAME
+cargo:rerun-if-env-changed=OPENCV_CMAKE_NAME
+cargo:rerun-if-env-changed=OPENCV_CMAKE_BIN
+cargo:rerun-if-env-changed=OPENCV_VCPKG_NAME
+cargo:rerun-if-env-changed=OPENCV_LINK_LIBS
+cargo:rerun-if-env-changed=OPENCV_LINK_PATHS
+cargo:rerun-if-env-changed=OPENCV_INCLUDE_PATHS
+cargo:rerun-if-env-changed=OPENCV_DISABLE_PROBES
+cargo:rerun-if-env-changed=CMAKE_PREFIX_PATH
+cargo:rerun-if-env-changed=OpenCV_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=VCPKG_ROOT
+cargo:rerun-if-env-changed=VCPKGRS_DYNAMIC
+cargo:rerun-if-env-changed=OCVRS_DOCS_GENERATE_DIR
+cargo:rerun-if-env-changed=DOCS_RS
+cargo:rerun-if-changed=C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\opencv-0.78.0\src_cpp\alphamat.hpp
+cargo:rerun-if-changed=C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\opencv-0.78.0\src_cpp\aruco.hpp
+cargo:rerun-if-changed=C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\opencv-0.78.0\src_cpp\bioinspired.hpp
+cargo:rerun-if-changed=C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\opencv-0.78.0\src_cpp\ccalib.hpp
+cargo:rerun-if-changed=C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\opencv-0.78.0\src_cpp\core.hpp
+cargo:rerun-if-changed=C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\opencv-0.78.0\src_cpp\dnn.hpp
+cargo:rerun-if-changed=C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\opencv-0.78.0\src_cpp\face.hpp
+cargo:rerun-if-changed=C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\opencv-0.78.0\src_cpp\gapi.hpp
+cargo:rerun-if-changed=C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\opencv-0.78.0\src_cpp\hdf.hpp
+cargo:rerun-if-changed=C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\opencv-0.78.0\src_cpp\manual-core.cpp
+cargo:rerun-if-changed=C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\opencv-0.78.0\src_cpp\manual-dnn.cpp
+cargo:rerun-if-changed=C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\opencv-0.78.0\src_cpp\manual-features2d.cpp
+cargo:rerun-if-changed=C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\opencv-0.78.0\src_cpp\ocvrs_common.hpp
+cargo:rerun-if-changed=C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\opencv-0.78.0\src_cpp\photo.hpp
+cargo:rerun-if-changed=C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\opencv-0.78.0\src_cpp\sfm.hpp
+cargo:rerun-if-changed=C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\opencv-0.78.0\src_cpp\videoio.hpp
+cargo:rerun-if-changed=C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\opencv-0.78.0\src_cpp\xfeatures2d.hpp
+cargo:rerun-if-changed=Cargo.toml
+OPT_LEVEL = Some("3")
+TARGET = Some("x86_64-pc-windows-msvc")
+HOST = Some("x86_64-pc-windows-msvc")
+cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+CXX_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+CXX_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+CXXFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+CXXFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("false")
+cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+CXX_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+CXX_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+CXXFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+CXXFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+CXX_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+CXX_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+CXXFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+CXXFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+CXX_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+CXX_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+CXXFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+CXXFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+CXX_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+CXX_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+CXXFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+CXXFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+CXX_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+CXX_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+CXXFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+CXXFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+CXX_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+CXX_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+CXXFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+CXXFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+CXX_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+CXX_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+CXXFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+CXXFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+CXX_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+CXX_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+CXXFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+CXXFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rerun-if-env-changed=CXX_x86_64-pc-windows-msvc
+CXX_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXX_x86_64_pc_windows_msvc
+CXX_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64-pc-windows-msvc
+CXXFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXXFLAGS_x86_64_pc_windows_msvc
+CXXFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+cargo:rustc-cfg=ocvrs_has_module_calib3d
+cargo:rustc-cfg=ocvrs_has_module_core
+cargo:rustc-cfg=ocvrs_has_module_dnn
+cargo:rustc-cfg=ocvrs_has_module_features2d
+cargo:rustc-cfg=ocvrs_has_module_flann
+cargo:rustc-cfg=ocvrs_has_module_gapi
+cargo:rustc-cfg=ocvrs_has_module_highgui
+cargo:rustc-cfg=ocvrs_has_module_imgcodecs
+cargo:rustc-cfg=ocvrs_has_module_imgproc
+cargo:rustc-cfg=ocvrs_has_module_ml
+cargo:rustc-cfg=ocvrs_has_module_objdetect
+cargo:rustc-cfg=ocvrs_has_module_photo
+cargo:rustc-cfg=ocvrs_has_module_stitching
+cargo:rustc-cfg=ocvrs_has_module_video
+cargo:rustc-cfg=ocvrs_has_module_videoio
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp" "-I" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out" "-I" "." "-I" "C:\\tools\\opencv\\build\\include" "-W4" "-std:c++latest" "-EHsc" "-bigobj" "-utf-8" "-wd4996" "-wd5054" "-wd4190" "-wd4702" "-wd4100" "-wd4127" "-FoD:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-calib3d.o" "-c" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\calib3d.cpp"
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp" "-I" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out" "-I" "." "-I" "C:\\tools\\opencv\\build\\include" "-W4" "-std:c++latest" "-EHsc" "-bigobj" "-utf-8" "-wd4996" "-wd5054" "-wd4190" "-wd4702" "-wd4100" "-wd4127" "-FoD:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\c4c6c94e5a7085b9-manual-core.o" "-c" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp\\manual-core.cpp"
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp" "-I" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out" "-I" "." "-I" "C:\\tools\\opencv\\build\\include" "-W4" "-std:c++latest" "-EHsc" "-bigobj" "-utf-8" "-wd4996" "-wd5054" "-wd4190" "-wd4702" "-wd4100" "-wd4127" "-FoD:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-features2d.o" "-c" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\features2d.cpp"
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp" "-I" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out" "-I" "." "-I" "C:\\tools\\opencv\\build\\include" "-W4" "-std:c++latest" "-EHsc" "-bigobj" "-utf-8" "-wd4996" "-wd5054" "-wd4190" "-wd4702" "-wd4100" "-wd4127" "-FoD:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\c4c6c94e5a7085b9-manual-features2d.o" "-c" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp\\manual-features2d.cpp"
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp" "-I" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out" "-I" "." "-I" "C:\\tools\\opencv\\build\\include" "-W4" "-std:c++latest" "-EHsc" "-bigobj" "-utf-8" "-wd4996" "-wd5054" "-wd4190" "-wd4702" "-wd4100" "-wd4127" "-FoD:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-dnn.o" "-c" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\dnn.cpp"
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp" "-I" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out" "-I" "." "-I" "C:\\tools\\opencv\\build\\include" "-W4" "-std:c++latest" "-EHsc" "-bigobj" "-utf-8" "-wd4996" "-wd5054" "-wd4190" "-wd4702" "-wd4100" "-wd4127" "-FoD:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-core.o" "-c" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\core.cpp"
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp" "-I" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out" "-I" "." "-I" "C:\\tools\\opencv\\build\\include" "-W4" "-std:c++latest" "-EHsc" "-bigobj" "-utf-8" "-wd4996" "-wd5054" "-wd4190" "-wd4702" "-wd4100" "-wd4127" "-FoD:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\c4c6c94e5a7085b9-manual-dnn.o" "-c" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp\\manual-dnn.cpp"
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp" "-I" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out" "-I" "." "-I" "C:\\tools\\opencv\\build\\include" "-W4" "-std:c++latest" "-EHsc" "-bigobj" "-utf-8" "-wd4996" "-wd5054" "-wd4190" "-wd4702" "-wd4100" "-wd4127" "-FoD:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-flann.o" "-c" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\flann.cpp"
+calib3d.cpp
+manual-core.cpp
+features2d.cpp
+dnn.cpp
+manual-features2d.cpp
+core.cpp
+manual-dnn.cpp
+flann.cpp
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp" "-I" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out" "-I" "." "-I" "C:\\tools\\opencv\\build\\include" "-W4" "-std:c++latest" "-EHsc" "-bigobj" "-utf-8" "-wd4996" "-wd5054" "-wd4190" "-wd4702" "-wd4100" "-wd4127" "-FoD:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-gapi.o" "-c" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\gapi.cpp"
+gapi.cpp
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp" "-I" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out" "-I" "." "-I" "C:\\tools\\opencv\\build\\include" "-W4" "-std:c++latest" "-EHsc" "-bigobj" "-utf-8" "-wd4996" "-wd5054" "-wd4190" "-wd4702" "-wd4100" "-wd4127" "-FoD:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-highgui.o" "-c" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\highgui.cpp"
+highgui.cpp
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp" "-I" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out" "-I" "." "-I" "C:\\tools\\opencv\\build\\include" "-W4" "-std:c++latest" "-EHsc" "-bigobj" "-utf-8" "-wd4996" "-wd5054" "-wd4190" "-wd4702" "-wd4100" "-wd4127" "-FoD:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-imgcodecs.o" "-c" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\imgcodecs.cpp"
+imgcodecs.cpp
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp" "-I" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out" "-I" "." "-I" "C:\\tools\\opencv\\build\\include" "-W4" "-std:c++latest" "-EHsc" "-bigobj" "-utf-8" "-wd4996" "-wd5054" "-wd4190" "-wd4702" "-wd4100" "-wd4127" "-FoD:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-imgproc.o" "-c" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\imgproc.cpp"
+imgproc.cpp
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp" "-I" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out" "-I" "." "-I" "C:\\tools\\opencv\\build\\include" "-W4" "-std:c++latest" "-EHsc" "-bigobj" "-utf-8" "-wd4996" "-wd5054" "-wd4190" "-wd4702" "-wd4100" "-wd4127" "-FoD:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-ml.o" "-c" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\ml.cpp"
+ml.cpp
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp" "-I" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out" "-I" "." "-I" "C:\\tools\\opencv\\build\\include" "-W4" "-std:c++latest" "-EHsc" "-bigobj" "-utf-8" "-wd4996" "-wd5054" "-wd4190" "-wd4702" "-wd4100" "-wd4127" "-FoD:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-objdetect.o" "-c" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\objdetect.cpp"
+objdetect.cpp
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp" "-I" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out" "-I" "." "-I" "C:\\tools\\opencv\\build\\include" "-W4" "-std:c++latest" "-EHsc" "-bigobj" "-utf-8" "-wd4996" "-wd5054" "-wd4190" "-wd4702" "-wd4100" "-wd4127" "-FoD:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-photo.o" "-c" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\photo.cpp"
+photo.cpp
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp" "-I" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out" "-I" "." "-I" "C:\\tools\\opencv\\build\\include" "-W4" "-std:c++latest" "-EHsc" "-bigobj" "-utf-8" "-wd4996" "-wd5054" "-wd4190" "-wd4702" "-wd4100" "-wd4127" "-FoD:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-stitching.o" "-c" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\stitching.cpp"
+stitching.cpp
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp" "-I" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out" "-I" "." "-I" "C:\\tools\\opencv\\build\\include" "-W4" "-std:c++latest" "-EHsc" "-bigobj" "-utf-8" "-wd4996" "-wd5054" "-wd4190" "-wd4702" "-wd4100" "-wd4127" "-FoD:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-video.o" "-c" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\video.cpp"
+video.cpp
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O2" "-Brepro" "-I" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.78.0\\src_cpp" "-I" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out" "-I" "." "-I" "C:\\tools\\opencv\\build\\include" "-W4" "-std:c++latest" "-EHsc" "-bigobj" "-utf-8" "-wd4996" "-wd5054" "-wd4190" "-wd4702" "-wd4100" "-wd4127" "-FoD:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-videoio.o" "-c" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\videoio.cpp"
+videoio.cpp
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+exit code: 0
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\lib.exe" "-out:D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\libocvrs.a" "-nologo" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-calib3d.o" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-core.o" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\c4c6c94e5a7085b9-manual-core.o" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-dnn.o" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\c4c6c94e5a7085b9-manual-dnn.o" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-features2d.o" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\c4c6c94e5a7085b9-manual-features2d.o" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-flann.o" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-gapi.o" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-highgui.o" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-imgcodecs.o" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-imgproc.o" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-ml.o" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-objdetect.o" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-photo.o" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-stitching.o" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-video.o" "D:\\PiedPiper\\PiedPiper\\pied-piper\\target\\release\\build\\opencv-dd4606cb77749b57\\out\\1feb594db8e89099-videoio.o"
+exit code: 0
+cargo:rustc-link-search=native=C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.35.32215\atlmfc\lib\x64
+cargo:rustc-link-lib=static=ocvrs
+cargo:rustc-link-search=native=D:\PiedPiper\PiedPiper\pied-piper\target\release\build\opencv-dd4606cb77749b57\out
+cargo:rerun-if-env-changed=CXXSTDLIB_x86_64-pc-windows-msvc
+CXXSTDLIB_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CXXSTDLIB_x86_64_pc_windows_msvc
+CXXSTDLIB_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CXXSTDLIB
+HOST_CXXSTDLIB = None
+cargo:rerun-if-env-changed=CXXSTDLIB
+CXXSTDLIB = None
+cargo:rustc-link-search=C:\tools\opencv\build\x64\vc15\lib
+cargo:rustc-link-lib=opencv_world460

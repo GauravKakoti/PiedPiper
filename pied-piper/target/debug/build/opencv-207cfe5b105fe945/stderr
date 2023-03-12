@@ -1,0 +1,224 @@
+=== Using environment job server with the the amount of available jobs: 7
+=== Crate version: Some("0.75.0")
+=== Environment configuration:
+===   OPENCV_PACKAGE_NAME = None
+===   OPENCV_PKGCONFIG_NAME = None
+===   OPENCV_CMAKE_NAME = None
+===   OPENCV_CMAKE_BIN = None
+===   OPENCV_VCPKG_NAME = None
+===   OPENCV_LINK_LIBS = Some("C:\\tools\\opencv\\build\\x64\\vc15\\lib\\opencv_world460.lib")
+===   OPENCV_LINK_PATHS = Some("C:\\tools\\opencv\\build\\x64\\vc15\\lib")
+===   OPENCV_INCLUDE_PATHS = Some("C:\\tools\\opencv\\build\\include")
+===   OPENCV_DISABLE_PROBES = None
+===   CMAKE_PREFIX_PATH = None
+===   OpenCV_DIR = None
+===   PKG_CONFIG_PATH = Some("D:\\Git\\mingw64\\lib\\pkgconfig;D:\\Git\\mingw64\\share\\pkgconfig")
+===   VCPKG_ROOT = None
+===   VCPKGRS_DYNAMIC = None
+===   PATH = Some("d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\deps;d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug;C:\\Users\\HP\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib;C:\\Users\\HP\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin;C:\\Users\\HP\\bin;D:\\Git\\mingw64\\bin;D:\\Git\\usr\\local\\bin;D:\\Git\\usr\\bin;D:\\Git\\usr\\bin;D:\\Git\\mingw64\\bin;D:\\Git\\usr\\bin;C:\\Users\\HP\\bin;C:\\Python38\\Scripts;C:\\Python38;C:\\Python310\\Scripts;C:\\Python310;C:\\Users\\HP\\AppData\\Roaming\\npm;C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0;C:\\windows\\System32\\OpenSSH;C:\\MinGW\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;C:\\HashiCorp\\Vagrant\\bin;C:\\Program Files\\Java\\jdk1.8.0_211\\bin;C:\\Program Files\\Amazon\\AWSCLIV2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\dotnet;C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.0\\bin;C:\\Program Files\\LLVM\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\HP\\.cargo\\bin;C:\\Users\\HP\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\HP\\go\\bin;C:\\Program Files (x86)\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin;C:\\Users\\HP\\AppData\\Roaming\\npm;C:\\Program Files\\heroku\\bin;C:\\Program Files\\Oracle\\VirtualBox;C:\\Users\\HP\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\HP\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\HP\\.dotnet\\tools;C:\\Users\\HP\\.cargo\\bin;D:\\Git\\usr\\bin\\vendor_perl;D:\\Git\\usr\\bin\\core_perl")
+=== Enabled features:
+===   ALPHAMAT
+===   ARUCO
+===   ARUCO_DETECTOR
+===   BARCODE
+===   BGSEGM
+===   BIOINSPIRED
+===   CALIB3D
+===   CCALIB
+===   CUDAARITHM
+===   CUDABGSEGM
+===   CUDACODEC
+===   CUDAFEATURES2D
+===   CUDAFILTERS
+===   CUDAIMGPROC
+===   CUDAOBJDETECT
+===   CUDAOPTFLOW
+===   CUDASTEREO
+===   CUDAWARPING
+===   CVV
+===   DEFAULT
+===   DNN
+===   DNN_SUPERRES
+===   DPM
+===   FACE
+===   FEATURES2D
+===   FLANN
+===   FREETYPE
+===   FUZZY
+===   GAPI
+===   HDF
+===   HFS
+===   HIGHGUI
+===   IMGCODECS
+===   IMGPROC
+===   IMG_HASH
+===   INTENSITY_TRANSFORM
+===   LINE_DESCRIPTOR
+===   MCC
+===   ML
+===   OBJDETECT
+===   OPTFLOW
+===   OVIS
+===   PHASE_UNWRAPPING
+===   PHOTO
+===   PLOT
+===   QUALITY
+===   RAPID
+===   RGBD
+===   SALIENCY
+===   SFM
+===   SHAPE
+===   STEREO
+===   STITCHING
+===   STRUCTURED_LIGHT
+===   SUPERRES
+===   SURFACE_MATCHING
+===   TEXT
+===   TRACKING
+===   VIDEO
+===   VIDEOIO
+===   VIDEOSTAB
+===   VIZ
+===   WECHAT_QRCODE
+===   XFEATURES2D
+===   XIMGPROC
+===   XOBJDETECT
+===   XPHOTO
+=== Detected probe priority based on environment vars: pkg_config: true, cmake: false, vcpkg: true
+=== Probing the OpenCV library in the following order: environment, pkg_config, vcpkg_cmake, vcpkg, cmake
+=== Configuring OpenCV library from the environment:
+===   include_paths: C:\tools\opencv\build\include
+===   link_paths: C:\tools\opencv\build\x64\vc15\lib
+===   link_libs: C:\tools\opencv\build\x64\vc15\lib\opencv_world460.lib
+=== Successfully probed using: environment
+=== OpenCV library configuration: Library {
+    include_paths: [
+        "C:\\tools\\opencv\\build\\include",
+    ],
+    version: Version {
+        major: 4,
+        minor: 6,
+        patch: 0,
+    },
+    cargo_metadata: [
+        "cargo:rustc-link-search=C:\\tools\\opencv\\build\\x64\\vc15\\lib",
+        "cargo:rustc-link-lib=opencv_world460",
+    ],
+}
+=== Detected OpenCV module header dir at: C:\tools\opencv\build\include\opencv2
+=== Found OpenCV version: 4.6.0 in headers located at: C:\tools\opencv\build\include
+=== Generating code in: d:\PiedPiper\PiedPiper\pied-piper\target\debug\build\opencv-207cfe5b105fe945\out
+=== Placing generated bindings into: C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\opencv-0.75.0\src\opencv
+=== Using OpenCV headers from: C:\tools\opencv\build\include
+=== Clang: clang version 15.0.7
+=== Clang command line args: [
+    "-isystemC:\\Program Files\\LLVM\\lib\\clang\\15.0.7\\include",
+    "-isystemC:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\include",
+    "-isystemC:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\atlmfc\\include",
+    "-isystemC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\ucrt",
+    "-isystemC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\shared",
+    "-isystemC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\um",
+    "-isystemC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\winrt",
+    "-isystemC:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\cppwinrt",
+    "-IC:\\tools\\opencv\\build\\include",
+    "-FC:\\tools\\opencv\\build\\include",
+    "-IC:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.75.0\\src_cpp",
+    "-FC:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.75.0\\src_cpp",
+    "-DOCVRS_PARSING_HEADERS",
+    "-includeocvrs_ephemeral.hpp",
+    "-std=c++14",
+]
+=== Building binding-generator binary:
+===    Compiling winapi v0.3.9
+===    Compiling libc v0.2.139
+===    Compiling memchr v2.5.0
+===    Compiling glob v0.3.0
+===    Compiling regex-syntax v0.6.28
+===    Compiling percent-encoding v2.2.0
+===    Compiling maplit v1.0.2
+===    Compiling dunce v1.0.3
+===    Compiling once_cell v1.17.0
+===    Compiling clang-sys v1.4.0
+===    Compiling aho-corasick v0.7.20
+===    Compiling libloading v0.7.4
+===    Compiling regex v1.7.0
+===    Compiling clang v2.0.0
+===    Compiling opencv-binding-generator v0.53.0
+===     Finished release [optimized] target(s) in 1m 16s
+=== Running: "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out\\release/binding-generator" "C:\\tools\\opencv\\build\\include" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.75.0\\src_cpp" "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out" "dnn" ""
+=== Running: "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out\\release/binding-generator" "C:\\tools\\opencv\\build\\include" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.75.0\\src_cpp" "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out" "features2d" ""
+=== Running: "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out\\release/binding-generator" "C:\\tools\\opencv\\build\\include" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.75.0\\src_cpp" "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out" "highgui" ""
+=== Running: "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out\\release/binding-generator" "C:\\tools\\opencv\\build\\include" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.75.0\\src_cpp" "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out" "calib3d" ""
+=== Running: "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out\\release/binding-generator" "C:\\tools\\opencv\\build\\include" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.75.0\\src_cpp" "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out" "core" ""
+=== Running: "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out\\release/binding-generator" "C:\\tools\\opencv\\build\\include" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.75.0\\src_cpp" "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out" "flann" ""
+=== Running: "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out\\release/binding-generator" "C:\\tools\\opencv\\build\\include" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.75.0\\src_cpp" "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out" "gapi" ""
+=== Generated: highgui
+=== Running: "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out\\release/binding-generator" "C:\\tools\\opencv\\build\\include" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.75.0\\src_cpp" "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out" "imgcodecs" ""
+=== Generated: flann
+=== Running: "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out\\release/binding-generator" "C:\\tools\\opencv\\build\\include" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.75.0\\src_cpp" "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out" "imgproc" ""
+=== Generated: calib3d
+=== Running: "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out\\release/binding-generator" "C:\\tools\\opencv\\build\\include" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.75.0\\src_cpp" "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out" "ml" ""
+=== Generated: features2d
+=== Running: "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out\\release/binding-generator" "C:\\tools\\opencv\\build\\include" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.75.0\\src_cpp" "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out" "objdetect" ""
+=== Generated: gapi
+=== Running: "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out\\release/binding-generator" "C:\\tools\\opencv\\build\\include" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.75.0\\src_cpp" "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out" "photo" ""
+=== Generated: dnn
+=== Running: "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out\\release/binding-generator" "C:\\tools\\opencv\\build\\include" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.75.0\\src_cpp" "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out" "stitching" ""
+=== Generated: imgcodecs
+=== Running: "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out\\release/binding-generator" "C:\\tools\\opencv\\build\\include" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.75.0\\src_cpp" "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out" "video" ""
+=== Generated: ml
+=== Running: "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out\\release/binding-generator" "C:\\tools\\opencv\\build\\include" "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.75.0\\src_cpp" "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out" "videoio" ""
+=== Generated: objdetect
+=== Generated: imgproc
+=== Generated: core
+=== Generated: photo
+=== Generated: video
+=== Generated: videoio
+=== Generated: stitching
+=== Total binding generation time: 26.1494641s
+=== Compiler information: Tool {
+    path: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe",
+    cc_wrapper_path: None,
+    cc_wrapper_args: [],
+    args: [
+        "-nologo",
+        "-MD",
+        "-Z7",
+        "-Brepro",
+        "-I",
+        "C:\\Users\\HP\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\opencv-0.75.0\\src_cpp",
+        "-I",
+        "d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\build\\opencv-207cfe5b105fe945\\out",
+        "-I",
+        ".",
+        "-I",
+        "C:\\tools\\opencv\\build\\include",
+        "-W4",
+        "-std:c++latest",
+        "-EHsc",
+        "-bigobj",
+        "-wd4996",
+        "-wd5054",
+        "-wd4190",
+        "-wd4702",
+    ],
+    env: [
+        (
+            "LIB",
+            "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\lib\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\atlmfc\\lib\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.22000.0\\ucrt\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.22000.0\\um\\x64;",
+        ),
+        (
+            "PATH",
+            "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22000.0\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64;d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug\\deps;d:\\PiedPiper\\PiedPiper\\pied-piper\\target\\debug;C:\\Users\\HP\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib;C:\\Users\\HP\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\bin;C:\\Users\\HP\\bin;D:\\Git\\mingw64\\bin;D:\\Git\\usr\\local\\bin;D:\\Git\\usr\\bin;D:\\Git\\usr\\bin;D:\\Git\\mingw64\\bin;D:\\Git\\usr\\bin;C:\\Users\\HP\\bin;C:\\Python38\\Scripts;C:\\Python38;C:\\Python310\\Scripts;C:\\Python310;C:\\Users\\HP\\AppData\\Roaming\\npm;C:\\Program Files\\ImageMagick-7.0.11-Q16-HDRI;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0;C:\\windows\\System32\\OpenSSH;C:\\MinGW\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs;C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin;C:\\HashiCorp\\Vagrant\\bin;C:\\Program Files\\Java\\jdk1.8.0_211\\bin;C:\\Program Files\\Amazon\\AWSCLIV2;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\dotnet;C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.9.0\\bin;C:\\Program Files\\LLVM\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\HP\\.cargo\\bin;C:\\Users\\HP\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\HP\\go\\bin;C:\\Program Files (x86)\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin;C:\\Users\\HP\\AppData\\Roaming\\npm;C:\\Program Files\\heroku\\bin;C:\\Program Files\\Oracle\\VirtualBox;C:\\Users\\HP\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\HP\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\HP\\.dotnet\\tools;C:\\Users\\HP\\.cargo\\bin;D:\\Git\\usr\\bin\\vendor_perl;D:\\Git\\usr\\bin\\core_perl",
+        ),
+        (
+            "INCLUDE",
+            "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\include;C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\atlmfc\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\cppwinrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22000.0\\shared;",
+        ),
+    ],
+    family: Msvc {
+        clang_cl: false,
+    },
+    cuda: false,
+    removed_args: [],
+}

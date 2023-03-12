@@ -1,0 +1,11 @@
+D:\PiedPiper\PiedPiper\pied-piper\target\release\build\opencv-dd4606cb77749b57\out\release\deps\libc-59503b81602c204c.rmeta: C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\lib.rs C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\macros.rs C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\fixed_width_ints.rs C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\windows\mod.rs C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\windows\msvc\mod.rs
+
+D:\PiedPiper\PiedPiper\pied-piper\target\release\build\opencv-dd4606cb77749b57\out\release\deps\liblibc-59503b81602c204c.rlib: C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\lib.rs C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\macros.rs C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\fixed_width_ints.rs C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\windows\mod.rs C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\windows\msvc\mod.rs
+
+D:\PiedPiper\PiedPiper\pied-piper\target\release\build\opencv-dd4606cb77749b57\out\release\deps\libc-59503b81602c204c.d: C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\lib.rs C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\macros.rs C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\fixed_width_ints.rs C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\windows\mod.rs C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\windows\msvc\mod.rs
+
+C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\lib.rs:
+C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\macros.rs:
+C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\fixed_width_ints.rs:
+C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\windows\mod.rs:
+C:\Users\HP\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.139\src\windows\msvc\mod.rs:
